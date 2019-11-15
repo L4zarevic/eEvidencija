@@ -1,0 +1,8 @@
+.label {
+    -fx-font: 11px Tahoma;
+}
+
+#root {
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}

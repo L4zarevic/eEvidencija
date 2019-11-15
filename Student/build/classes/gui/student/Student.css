@@ -1,0 +1,22 @@
+#root {
+    -fx-spacing: 25;
+    -fx-padding: 10;
+}
+
+#tekst {
+    -fx-font-size: 20;
+    -fx-font-family: Tahoma;
+}
+
+#loginKontejner {
+    -fx-spacing: 5;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+.text-field:focused {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}

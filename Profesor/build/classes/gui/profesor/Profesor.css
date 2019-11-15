@@ -1,0 +1,29 @@
+#root {
+    -fx-padding: 0 10 10 10;
+}
+
+#lijevi {
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+#radioButtonKontejner {
+    -fx-spacing: 15;
+}
+
+#predavanjaKontejner {
+    -fx-spacing: 5;
+}
+
+#desni {
+    -fx-spacing: 10;
+}
+
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+.text-field:focused {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
